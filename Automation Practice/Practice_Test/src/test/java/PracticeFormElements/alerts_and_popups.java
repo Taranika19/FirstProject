@@ -21,7 +21,7 @@ public class alerts_and_popups {
 
 		WebElement Alert = driver.findElement(By.xpath("//button[@onclick='showAlert()']"));
 		Alert.click();
-		
+		//Sleep
 		sleep(5000);
 		//driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
